@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body{
+    height: 100%;
+    background: rgb(232, 248, 225);
+
+}
+.container{
+    background: rgb(255, 255, 255);     
+    height: 50px;
+}
+.container ul{
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+
+}
+#underline,#green{
+    text-decoration: none;
+}
+.menu-container ul li a{
+    color: black;
+}
+.container li{
+    font-family: 'Yeon Sung', Times, serif;
+    margin: -2% 5% 0% 0%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.green {
+    font-size: 22px;
+}
+.logo{
+    margin: 0 0 0% 2%;
+}
+.Register{
+    margin-top: -25%;
+    width: 100px;
+    padding: 4px 0;
+    border: 2.5px solid #42e084;
+    background: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'Yeon Sung', Times, serif;
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+.title{
+    text-align: center;
+    background-color: transparent;
+    margin-top: 3%;
+    font-size: 38px;
+    font-family:'Yeon Sung', Times, serif;
+    letter-spacing: 2px;
+}
+
+.tips{
+    text-align: left;
+    margin: 4% 0 0 8%;
+    font-size: 28px;
+    font-family:'Yeon Sung', Times, serif;
+    letter-spacing: 3px;
+    padding-bottom: 2%;
+}
+
+
+.sub-title{
+    text-align: center;
+    background-color: transparent;
+    margin-top: 1.5%;
+    font-size: 48px;
+    font-family:'Yeon Sung', Times, serif;
+    letter-spacing: 2px;
+}
+.tips p{
+    padding-top: 5%;
+}
+
+.text-tip {
+    font-weight: 900;
+    font-size: 1.5em; 
+    text-align: center;
+  }
+  
+  .text-tip .letter {
+    display: inline-block;
+    line-height: 1em;
+  }

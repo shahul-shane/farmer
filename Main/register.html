@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register </title>
+    <link rel="stylesheet" href="./register.css">
+    <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="menu-container">
+            <a href="../index.html" class="green" id="green"><img src="../Assets/green-tea.png" alt="tea-png" class="logo" width="40px" height="40px">Green Plants</a>
+            <ul> 
+                <li><a href="./main.html" id="underline">Home</a></li>
+                <li><a href="./plantation.html" id="underline">Seeding</a></li>
+                <li><a href="./seasonal.html" id="underline">Seasonal</a></li>
+                <li><a href="./account.html" id="underline">Profile</a></li>
+                <li><button class="Register" onclick="window.location.href = '../Login_Signup/signup.html'">Log out</button></li>
+            </ul>
+        </div>
+    </div>
+    <form action="#" method="post">
+        <div class="form">
+            <div class="title">
+                Hello Farmer, lets Seed <img src="../Assets/monitor.png" alt="" width="45px" height="45px"> your details
+            </div>
+            <div class="first-page">
+                <div class="user-detail"> 
+                    <div class="input-field">   
+                        <div class="fname">
+                            <label for="fname">First Name :</label>
+                            <input type="text" name="fname" id="fname" placeholder="First Name" required>
+                        </div>
+                        <div class="lname">
+                            <label for="lname">Last Name :</label>  
+                            <input type="text" name="lname" id="lname" placeholder="Last Name" required><br>    
+                        </div>    
+                    </div>
+                    <div class="input-field">
+                        <div class="gender">
+                            <label for="gender">Gender :</label> 
+                            <input type="text" name="gender" id="gender" placeholder="Gender" maxlength="15" required>
+                        </div>
+                        <div class="age">
+                            <label for="age">Age :</label>
+                            <input type="number" name="age" id="age" placeholder="Age" required><br>
+                        </div>
+                    </div>
+                    <div class="input-field">
+                        <div class="phone">
+                            <label for="phone">Phone :</label> 
+                            <input type="number" name="phone" id="phone" placeholder="Phone" maxlength="10" required>
+                        </div>
+                        <div class="street">
+                            <label for="street">Street :</label>
+                            <input type="text" name="street" id="street" placeholder="Street" required><br>
+                        </div>
+                    </div>    
+                    <div class="input-field">   
+                        <div class="city">
+                            <label for="city">City :</label>
+                            <input type="text" name="city" id="city" placeholder="City" required>
+                        </div>
+                        <div class="state">    
+                            <label for="state">State :</label>
+                            <input type="text" name="state" id="state" placeholder="State" required><br>
+                        </div>
+                    </div>    
+                    <div class="input-field">
+                        <div class="zip">    
+                            <label for="zip">Pincode :</label>
+                            <input type="number" name="zip" id="zip" placeholder="Pincode" required>
+                        </div>
+                        <div class="country">    
+                            <label for="street">Country :</label>
+                            <input type="text" name="country" id="country" placeholder="Country" required><br>
+                        </div>
+                    </div>
+                            <input type="submit" value="Submit" class="button">
+                </div> 
+            </div>
+        </div>
+    </form>
+    <form action="#">
+        <div class="form">
+            <div class="title">
+                Farming <img src="../Assets/planting.png" alt="" width="45px" height="45px"> details
+            </div>
+            <div class="first-page">
+                <div class="user-detail"> 
+                    <div class="input-field">   
+                        <div class="farmername">
+                            <label for="farmername">Farmer Name :</label>
+                            <input type="text" name="farmername" id="farmername" placeholder="Farmer Name" required>
+                        </div>
+                        <div class="land">
+                            <label for="land">Land :</label>  
+                            <input type="number" name="land" id="land" placeholder="Acres" required><br>    
+                        </div>    
+                    </div>
+                    <div class="input-field">
+                        <div class="district">
+                            <label for="district">District :</label> 
+                            <input type="number" name="district" id="district" placeholder="District" maxlength="10" required>
+                        </div>
+                        <div class="taluk">
+                            <label for="taluk">Taluk :</label>
+                            <input type="text" name="taluk" id="taluk" placeholder="Taluk" required><br>
+                        </div>
+                    </div>    
+                    <div class="input-field">   
+                        <div class="zip">    
+                            <label for="zip">Pincode :</label>
+                            <input type="number" name="zip" id="zip" placeholder="Pincode" required>
+                        </div>
+                        <div class="state">    
+                            <label for="state">State :</label>
+                            <input type="text" name="state" id="state" placeholder="State" required><br>
+                        </div>
+                    </div>    
+                            <input type="submit" value="Submit" class="button">
+                </div> 
+            </div>
+        </div>
+    </form>
+    <script src="./register.js"></script>
+</body>
+</html>
